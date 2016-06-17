@@ -1,0 +1,102 @@
+@font-face {
+  font-family: CandaraDL;
+  src: url('Candara.ttf'); 
+}
+
+#header {
+  border-bottom: 2px solid #24355D;
+  padding-bottom: 20px;
+}
+
+#footer {
+  border-top: 2px solid #24355D;
+  padding-top: 10px;
+}
+
+#wrap {
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#nav {
+  padding-top: 20px;
+  float: left;
+  font-size: 14pt;
+  width: 15%;
+}
+
+#main {
+  float: right;
+  list-style-type: none;
+  padding: 20px;
+  border-left: 2px solid #24355D;
+  width: 78%;
+}
+
+#frame {
+  text-align: left;
+  margin-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 20%;
+}
+
+.name {
+  color: #24355D;
+  font-size: 30pt;
+}
+
+.subname {
+  color: black;
+  list-style-type: none;
+  margin-left: 2px;
+  font-size: 15pt;
+}
+
+body {
+  font-family: candara, CandaraDL;
+  font-size: 14pt;
+}
+
+LI.text {
+  margin-left: 20px;
+  margin-top: 7px;
+  line-height: 1.5
+}
+
+LI.textbar {
+  list-style-type: square;
+  line-height: 1.5
+}
+
+ul {
+    list-style-position: outside;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+LI.bar {
+  list-style-type: square;
+  padding-bottom: 10px;
+}
+
+
+A.text {
+  color: #24355D;
+  text-decoration: none;
+}
+
+A.bar {
+  color: black;
+  text-decoration: none;
+}
+
+A:hover {
+  text-decoration: underline;
+}
+
+
+
+
