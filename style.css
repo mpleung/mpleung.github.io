@@ -59,6 +59,7 @@ LI.text {
 }
 
 LI.textbar {
+  margin-bottom: 7px;
   list-style-type: square;
   line-height: 1.5
 }
