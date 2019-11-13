@@ -1,15 +1,15 @@
 @font-face {
   font-family: CandaraDL;
-"  src: url('Candara.ttf'); "
+  src: url('Candara.ttf'); 
 }
 
 #header {
-  border-bottom: 2px solid #24355D;
+  border-bottom: 2px solid #B4881D;
   padding-bottom: 20px;
 }
 
 #footer {
-  border-top: 2px solid #24355D;
+  border-top: 2px solid #B4881D;
   padding-top: 10px;
 }
 
@@ -36,20 +36,26 @@
 }
 
 .name {
-  color: #24355D;
-  font-size: 30pt;
+  color: #B4881D;
+  font-size: 25pt;
 }
 
 .subname {
-  color: black;
+  color: #839496;
   list-style-type: none;
   margin-left: 2px;
-  font-size: 15pt;
+  font-size: 12pt;
+}
+
+.section {
+  color: #B4881D;
 }
 
 body {
-  font-family: candara, CandaraDL;
-  font-size: 14pt;
+  font-family: candara, CandaraDL, menlo;
+  font-size: 12pt;
+  background-color: #002B36;
+  color: #839496;
 }
 
 LI.text {
@@ -70,26 +76,19 @@ ul {
     margin-bottom: 0;
 }
 
-LI.bar {
-  list-style-type: square;
-  padding-bottom: 10px;
-}
-
-
 A.text {
-  color: #24355D;
+  color: #2E8CCF;
   text-decoration: none;
 }
 
 A.bar {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 A:hover {
   text-decoration: underline;
+  color: #D34C14;
 }
-
-
 
 
