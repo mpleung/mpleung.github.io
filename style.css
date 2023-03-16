@@ -81,6 +81,11 @@ A.text {
   text-decoration: none;
 }
 
+A.sub {
+  color: #889849;
+  text-decoration: none;
+}
+
 A.bar {
   color: white;
   text-decoration: none;
